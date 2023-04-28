@@ -34,6 +34,15 @@ countries_visited = 90
 # We can also use numbers in our variables, however WE CAN'T USE VARIABLES that start with numbers!
 countries_visited_v2 = 93
 
+# We can also name a variable starting with an underscore
+_age = 30
+
+# We can also use capital letters in the middle of the variable, this is known as CAMEL CASE
+myVariable = 30
+
+# HOWEVER, WE CAN NOT USE SPECIAL CHARACTERS IN VARIABLE NAMES!
+
+
 # in python, the best practices is if you have variables that will never change,
 # the code should be register in upper case
 PI = 3.14159
