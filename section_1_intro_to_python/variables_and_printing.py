@@ -19,11 +19,14 @@ print("im testing the variable friend_age " + str(friend_age))
 
 # However, if we use the same variables but have a print statement under each one,
 # we will return the first instance of the variable as seen below!
+# at first, we're assigning the name x to the value 25,
+# and then afterwards we're "moving" that name,
+# and assigning it to the value 30. We run code from top to bottom so each print uses only the most current value.
 
-friend_age = 23
-print(friend_age)
-friend_age = 25
-print(friend_age)
+x = 25
+print(x)
+x = 30
+print(x)
 
 # in python, we use underscores to separate words in longer variables. This is called SNAKE CASE
 countries_visited = 90
