@@ -17,6 +17,14 @@ friend_age = 25
 
 print("im testing the variable friend_age " + str(friend_age))
 
+# However, if we use the same variables but have a print statement under each one,
+# we will return the first instance of the variable as seen below!
+
+friend_age = 23
+print(friend_age)
+friend_age = 25
+print(friend_age)
+
 # in python, we use underscores to separate words in longer variables. This is called SNAKE CASE
 countries_visited = 90
 
