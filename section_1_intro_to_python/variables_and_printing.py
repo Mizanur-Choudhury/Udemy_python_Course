@@ -10,7 +10,12 @@ age = 30
 print(age)
 print(30)
 
+# If we have the same variable which is assigned to different values, python will return the
+# last version (line 15's print)
 friend_age = 23
+friend_age = 25
+
+print("im testing the variable friend_age " + str(friend_age))
 
 # in python, we use underscores to separate words in longer variables. This is called SNAKE CASE
 countries_visited = 90
