@@ -21,7 +21,21 @@ print(friends[-3:4], "Testing [-3:4]")
 # We can use minuses as well to start from the end of the list and work backwards. This starts at the third element
 # from the back of the list (Anna) and grabs the forth element from the start of the list (Bob)
 
-print(friends[-3:-4], "Testing [-3:-4]")
+print(friends[-3:-4], "Testing [-3:-4]")  # INCORRECT!
+
+"""
+When using negative indexes we count from right to left, -1 being the last item in the list (”Jen”). 
+Therefore, the position -4 belongs to “Charlie” and -3 to “Anna”.
+When Python processes the slice, it starts from left to right, so it will first find -4 and then -3.
+Because of that, the correct way to slice using negative indexes would be [-4:-3] instead of the other way around.
+
+So, to get Rolf you would need to do:
+friends[-5]
+Or
+friends[-5:-4]
+"""
+
+print(friends[-5:-4], "Testing [-5:-4]")
 
 print(friends[:-4], "Testing [:-4]")
 # Starts at the back of the list and skips four elements and returns Rolf
