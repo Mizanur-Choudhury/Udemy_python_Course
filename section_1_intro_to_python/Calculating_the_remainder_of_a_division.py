@@ -42,6 +42,7 @@ Example: 8 / 2 = 4
 
 """
 
+# Normal division in python
 division = 13 / 5
 print(division)
 
