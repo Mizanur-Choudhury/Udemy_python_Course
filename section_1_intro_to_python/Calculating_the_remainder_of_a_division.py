@@ -45,7 +45,7 @@ Example: 8 / 2 = 4
 division = 13 / 5
 print(division)
 
-#
+# inter division is used by // and drop all the numbers after the decibel place
 integer_division = 13 // 5
 print(integer_division)
 
